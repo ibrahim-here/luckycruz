@@ -15,6 +15,24 @@
     /* Changed background to black as requested */
     background-color: rgba(0, 0, 0, 0.8);
 }
+.announcement-banner {
+    background: rgba(0, 255, 0, 0.08);
+    border: 1px solid rgba(0, 255, 0, 0.35);
+    border-left: 4px solid #00ff00;
+    padding: 16px 20px;
+    margin: 20px 0 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 0.08);
+}
+
+.announcement-banner p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+}
+
 
 .section-bg {
     position: absolute;
